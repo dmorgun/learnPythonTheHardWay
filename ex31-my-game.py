@@ -24,7 +24,7 @@ elif mood == "2" or mood == "3":
         print "Don't forget to exercise!"
     elif choice == '2':
         print "Feels better now, huh?"
-    elif choice == '3':
+    elif choice == 'fuf3':
         print "Aren't they cute?!"
 else:
     print "Sorry, I don't understand. Please try answering 1, 2 or 3."
