@@ -141,12 +141,12 @@ def eat():
 
         if choice in ("1", "meow") and meow_second_try:
             counter += 1
-            print counter
+            #print counter
             meow()
             finish("Your human gets angry at you making loud meowy noises and throws a pillow at you!")
         elif choice in ("1", "meow") and not meow_second_try:
             counter += 1
-            print counter
+            #print counter
             meow()
             meow_second_try = True
             print "Can't she hear you starving or what?"
@@ -154,7 +154,7 @@ def eat():
 
         elif choice in ("2", "sleep") and not sleep_second_try:
             counter += 1
-            print counter
+            #print counter
             print "You decide to take a nap by your human's side."
             sleep_second_try = True
             raw_input("Next...")
@@ -162,14 +162,14 @@ def eat():
 
         elif choice in ("2", "sleep") and sleep_second_try:
             counter += 1
-            print counter
+            #print counter
             sleep ()
             print "You dream of juicy meatballs and fresh salmon steaks."
             raw_input("Next...")
 
         elif choice in ("3", "purr") and human_asleep:
             counter += 1
-            print counter
+            #print counter
             purr()
             human_asleep = False
             print "But your human seems to be still sleeping. What do you do?"
@@ -179,7 +179,7 @@ def eat():
 
         elif choice in ("3", "purr") and not human_asleep:
             counter += 1
-            print counter
+            #print counter
             purr()
             print "Well that strategy seems to work out. Your human wakes up and feeds you. Nice!"
             raw_input("Next...")
