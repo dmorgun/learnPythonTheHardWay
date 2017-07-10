@@ -93,21 +93,21 @@ def watch_birds():
     print choice
     if choice in ("1", "lurk", "scare"):
         print "You lie down and hide from the birds sight and then quickly jump from behind with dreadful MEOW!"
-        print "(ﾐⓛ.ⓛ ﾐ)✧"
+        print "(ﾐⓛ. ⓛ ﾐ)✧"
         raw_input("Next...")
         print "Pigeons were not expecting that! They crap thier pants and run away ignominiously!"
         raw_input("Next...")
         #global mood
         #mood += 1
     elif choice in ("2", "ignore"):
-        print "After a few seconds you realize that they're not worth it. Ignorance is the best weapon."
+        print "After a few seconds you realize that they're not worth it. Сontempt is the deadliest weapon."
         raw_input("Next...")
     elif choice in ("3", "kill"):
         print "You gallop towards the balcony, ready to catch and defeat!"
         raw_input("Next...")
         print "But somewhere along the way you slip on the wet floor and miss the hit."
-        raw_input("")
-        finish("Pigeons gaggle at your clumsiness, you feel defeated.")
+        raw_input("Next...")
+        finish("Pigeons gaggle at your clumsiness, you are dethroned.")
     else:
         print "What was that?! Start over."
         watch_birds()
@@ -209,7 +209,7 @@ def play():
         play ()
 
     elif choice in ("2", "chase", "tail"):
-        print "What was that song you liked?"
+        print "What was that sleepy song you liked?"
         raw_input("Next...")
         print "Aha, here it is: https://www.youtube.com/watch?v=PGNiXGX2nLU"
         raw_input("Next...")
@@ -225,7 +225,7 @@ def play():
         raw_input("Next...")
 
     elif choice in ("3", "hunt", "human"):
-        print "What was that song you liked?"
+        print "What was that hunting song you liked?"
         raw_input("Next...")
         print "Aha, here it is: https://www.youtube.com/watch?v=ZtUAxpEIsRc"
         raw_input("Next...")
