@@ -7,7 +7,7 @@ keys = user1.keys()
 #print keys[0]
 user2 = {'Daria': '0964354884'}
 user3 = {'Daria': 'no cellphone'}
-user4 = {'Daria': 'no cellphone','Vanya': '0961112233'}
+user4 = {'Daria': 'no cellphone','Vanya': '0961112233','Daria': '0964354884'}
 
 phone_book = {}
 
@@ -25,11 +25,13 @@ def my_def(name, par=None):
 
 # my_def(user1, 'del')
 # print phone_book
+print user4
 my_def(user4)
 print phone_book
 
-my_def(user4, 'del')
-print phone_book
+
+# my_def(user4, 'del')
+# print phone_book
 
 # test adding people to phone_book
 # assert 'Vanya' in phone_book
