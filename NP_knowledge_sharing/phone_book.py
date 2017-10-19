@@ -7,7 +7,7 @@ keys = user1.keys()
 #print keys[0]
 user2 = {'Daria': '0964354884'}
 user3 = {'Daria': 'no cellphone'}
-user4 = {'Daria': 'no cellphone','Vanya': '0961112233','Daria': '0964354884'}
+user4 = {'Hello': 'no cellphone','Moto': '0961112233','Name': '0964354884', 'Fish': '0964354884'}
 
 phone_book = {}
 
