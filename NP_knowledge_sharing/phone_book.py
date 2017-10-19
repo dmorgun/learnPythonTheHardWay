@@ -22,11 +22,9 @@ def my_def(name, par=None):
 
     return phone_book
 
-
-# my_def(user1, 'del')
-# print phone_book
-print user4
 my_def(user4)
+print phone_book
+my_def(user4, 'del')
 print phone_book
 
 
