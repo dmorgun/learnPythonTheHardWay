@@ -23,9 +23,9 @@ def my_def(name, par=None):
     return phone_book
 
 my_def(user4)
-print phone_book
+# print phone_book
 my_def(user4, 'del')
-print phone_book
+# print phone_book
 
 
 # my_def(user4, 'del')
